@@ -12,7 +12,15 @@ This gives you growth of revenue by registered users in the cohort for n weeks a
 ## Revenue Prediction by Cohorts (USD)
 You should calculate the average cumulative revenue for the 12th week for all users who have been on your website. This not only provide a better estimate of CLV for all your users who have been on your website (including the ones who did not purchase anything) but also allows you to see trends for weekly cohorts.
 
-## RFM Task
+# RFM Task
+- Use only one year of data, 2010-12-01 to 2011-12-01.
+- Use SQL for calculation and data selection.
+- Calculate recency, frequency and money value and convert those values into R, F and M scores by using Quartiles, 1 to 4 values. In BigQuery, a function APPROX_QUANTILES is used to set the quartiles.
+- Calculate recency from date 2011-12-01.
+- Calculate common RFM score. An example of a possible answer is given in the table rfm_score.
+- Segment customers into Best Customers, Loyal Customers, Big Spenders, Lost Customers and other categories.
+- Present your analyses with a dashboard by using one of these tools: Tableau/Power Bi/Looker Studio.
+- Present some insights on which customer group/customer groups should the marketing team get focus on.
 
 
 
