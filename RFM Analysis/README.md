@@ -6,11 +6,17 @@ As the first step, you should write 1 or 2 queries to pull data of weekly revenu
 ## Weekly Average Revenue by Cohorts (USD)
 Next, you will produce the same chart, but the revenue/registrations for a particular week cohort will be expressed as a cumulative sum. For this you simply need to add the previous week's revenue to the current week’s revenue. Down below you will calculate averages for all week numbers (weeks since registration). 
 
+![Average Purchase in n Weeks](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/RFM%20Analysis/images/Average%20Purchases%20in%20Weeks.png)
+
 ## Cumulative Revenue by Cohorts (USD)
 This gives you growth of revenue by registered users in the cohort for n weeks after registration. This provides you with a coherent view of how much revenue you can expect to grow based on your historical data.
 
+![Cummulative Average](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/RFM%20Analysis/images/Cummulative%20CLV.png)
+
 ## Revenue Prediction by Cohorts (USD)
 You should calculate the average cumulative revenue for the 12th week for all users who have been on your website. This not only provide a better estimate of CLV for all your users who have been on your website (including the ones who did not purchase anything) but also allows you to see trends for weekly cohorts.
+
+![Predictive Average](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/RFM%20Analysis/images/Prediction%20CLV.png)
 
 # RFM Task
 - Use only one year of data, 2010-12-01 to 2011-12-01.
@@ -22,5 +28,11 @@ You should calculate the average cumulative revenue for the 12th week for all us
 - Present your analyses with a dashboard by using one of these tools: Tableau/Power Bi/Looker Studio.
 - Present some insights on which customer group/customer groups should the marketing team get focus on.
 
+## RFM Analysis
+With the utilisation of SQL, I was able to identify the different customer segments using RFM Analysis. Below are some of the insights identified from the data set.
 
+![RFM Dashboard](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/RFM%20Analysis/images/RFM%20Analysis.png)
+![RFM Dashboard](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/RFM%20Analysis/images/RFM%20Analysis%202.png)
 
+Here are some Recommendations and Conclusions developed after a full look into the dataset:
+![RFM Dashboard](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/RFM%20Analysis/images/RFM%20Conclusion.png)
