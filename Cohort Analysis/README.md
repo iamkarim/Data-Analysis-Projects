@@ -17,7 +17,7 @@ The problem involves providing weekly subscription data that shows how many subs
 
 ![Cohort Analysis](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Cohort%20Analysis/images/Cohort%20Analysis.png)
 
-Below is a visual of the number of subscribers in Cohort Weeks and the Churn Rate
+Below is a visual of the number of subscribers in Cohort Weeks and the Customer Retention Rate
 
 ![Cohort Analysis](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Cohort%20Analysis/images/Cohort%20Analysis2.png)
 
