@@ -15,4 +15,20 @@ Kindly utilise Microsoft Excel to open the xlsx file by selecting 'View Raw'
 
 The problem involves providing weekly subscription data that shows how many subscribers started their subscription in a particular week and how many remain active in the following 6 weeks. Your end result should show weekly retention cohorts for each week of data available in the dataset and their retention from week 0 to week 6. Assume that you are doing this analysis on 2021-02-07.
 
+![Cohort Analysis](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Cohort%20Analysis/images/Cohort%20Analysis.png)
+
+Below is a visual of the number of subscribers in Cohort Weeks and the Churn Rate
+
+![Cohort Analysis](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Cohort%20Analysis/images/Cohort%20Analysis2.png)
+
+### Main Insights
+1. The week of December 20th 2020 had the highest retention rate.
+
+2. November has the worst retention rate compared to December and January.
+
+3. The number of subscribers saw a massive increase starting November 29th, 2020. However, from December 20th, 2020, there was a notable drop in subscriptions. This downward trend continued until the week of January 3rd, 2021 when numbers briefly increased again. Following this rise, the subscriber count began to drop once more.
+
+4. After 6 weeks, The customers had an overall retention rate of 90%
+
+
 
