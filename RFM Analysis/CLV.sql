@@ -1,10 +1,9 @@
--- Gathering all the users first entry into the website
+-- Gathering all the users' first entry into the website
 WITH first_visit_users as (SELECT DISTINCT user_pseudo_id as User, 
-                                  MIN(PARSE_DATE('%Y%m%d', event_date)) as Registration_Date, 
-                                  MIN(event_timestamp) First_visit 
+                                  MIN(PARSE_DATE('%Y%m%d', event_date)) as Registration_Date,
                            FROM `tc-da-1.turing_data_analytics.raw_events`
                            GROUP BY user_pseudo_id),
--- Users who have made purchases in the website
+-- Users who have made purchases on the website
 purchase_users as (SELECT user_pseudo_id as User, 
                           PARSE_DATE('%Y%m%d', event_date) as Purchase_date, 
                           purchase_revenue_in_usd as Revenue 
