@@ -1,12 +1,17 @@
 # Visualizing Data Using Power BI
-
+![Dashboard](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Dashboard%20Works/images/AdventureWorks%20Dashboard.png)
 This file contains visualizations of key performance metrics for Adventure Works Company. The dashboard presents several insights through various visual elements, including:
 
 - Revenue Analysis
+  ![Revenue](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Dashboard%20Works/images/Revenue%20Analysis.png)
 - Sales Volume Analysis
+  ![Sales Volume](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Dashboard%20Works/images/Sales%20Volume%20Analysis.png)
 - Profit Analysis
+  ![Profit](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Dashboard%20Works/images/Profit%20Analysis.png)
 - Customer Analysis
+  ![Customer](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Dashboard%20Works/images/Customer%20Analysis.png)
 - Product Analysis
+  ![Product](https://github.com/iamkarim/Data-Analysis-Projects/blob/main/Dashboard%20Works/images/Product%20Analysis.png)
 
 These reports provide a comprehensive overview of the company's performance, highlighting areas of strength and identifying opportunities for improvement.
 
